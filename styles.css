@@ -1,0 +1,56 @@
+body {
+
+.centered-p {
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	color: white;
+  	font-size: 2rem;
+}
+
+.nav-img img {
+	width: 100%;
+}
+
+.portfolio-img {
+	-webkit-filter: brightness(0.5);
+  	filter: brightness(0.5);
+  	transition: .5s ease;
+}
+
+.portfolio-block:hover img{
+	-webkit-filter: brightness(.9);
+  	filter: brightness(.9);
+}
+
+.portfolio-text {
+	background-color: white;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	font-size: 1.5rem;
+  	padding: 10px;
+}
+
+.container {
+	margin-top: 10vh;
+}
+
+.body-text {
+	padding: 2rem 2rem;
+}
+
+#infographic {
+	padding-top: 20px;
+	display: flex;
+  	justify-content: center;
+}
+
+#infographic img {
+	max-width: 900px;
+	width: 90vw;
+}
+
+}
